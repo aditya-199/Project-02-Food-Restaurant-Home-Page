@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+html{
+  font-size: 62.5%;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 5rem;
+  background: linear-gradient(rgba(13, 10, 31, 0.825),rgba(23, 19, 51, 0.753)),url("./assets/pexels-maxyne-barcel-10402282\ 1.png") ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+  
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+button{
+  background-color: #c94c40;
+  color: #ffffff;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label="navbar"]{
+  height: 8rem;
+  /* background-color: yellow; */
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  color: #d58e1d;
+  height: 6rem;
+}
+
+.list .list-item{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.button-small{
+  font-size: 2.2rem;
+  font-weight: 550;
+  padding: 1rem 3rem;
+  letter-spacing: .2rem;
+  margin-right: 2rem;
+  border-style: none;
+  cursor: pointer;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+section[aria-label="hero"]{
+  height: 60rem;
+  /* background-color: #d58e1d; */
+}
+
+.hero{
+  text-align: center;
+}
+
+.hero h1{
+  padding: 7rem 0rem 5rem 0rem;
+  font-size: 7rem;
+  font-family: 'Dela Gothic One', cursive;
+  /* font-family: "Red Rose", cursive;  */
+  font-weight: 550;
+  color: #d58e1d;
+  width: 60vw;
+  word-spacing: 2rem;
+  height: 48vh;
+  margin:0 auto;
+  /* background-color: aqua; */
+}
+
+.button-large{
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  font-weight: 550;
+  padding: 2rem 5rem;
+  letter-spacing: .2rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.bottom{
+  position: relative;
+}
+
+.bottom div img{
+  position: absolute;
+  top: -57px;
+  right: 3px;
+  width: 15rem;
+}
